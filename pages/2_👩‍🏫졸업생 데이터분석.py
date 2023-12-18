@@ -32,8 +32,7 @@ df = pd.read_csv(file_path)
 plt.rc('font', family='Malgun Gothic')
 
 
-import matplotlib 
-matplotlib.rcParams['font.family'] = 'Malgun Gothic'
+import koreanize_matplotlib
 
 
 if st.button('수시 합격률'):
